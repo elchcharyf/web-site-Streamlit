@@ -3,8 +3,8 @@ import pickle
 import numpy as np 
 
 # Charger le modèle
-# with open("model.pkl","rb") as fille :
-    # model = pickle.load(fille)
+# with open("model.pkl","rb") as file :
+    # model = pickle.load(file)
 model = pickle.load(open('model.pkl', 'rb'))
 
 st.title("Prédiction de l'attrition client")

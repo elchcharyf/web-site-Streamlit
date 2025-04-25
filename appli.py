@@ -3,7 +3,7 @@ import pickle
 import numpy as np 
 
 # Charger le modèle
-with open("model.pkl","rb") as fille :
+with open("model.pkl","rb") as file :
     model = pickle.load(file)
 # model = pickle.load(open('model.pkl', 'rb'))
 
